@@ -397,6 +397,8 @@ while True:
             print(picture)
             break
         elif yes_no== "no":
+            clean()
+            time.sleep(1)
             print("Now Lets see Who won")
             print("Checking Data....")
             time.sleep(2)
